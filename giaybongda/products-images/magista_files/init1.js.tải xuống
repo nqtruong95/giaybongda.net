@@ -1,0 +1,19 @@
+//<script>
+bouncex.state = {"newvid":false,"iol":false,"tn":1510556513,"pvid":3,"rc":false,"mobile":false,"vip":"118.69.95.148","geo":{"country_code":"VN","country_code3":"VNM","country_name":"Vietnam","region":"20","city":"Ho Chi Minh City","postal_code":null,"latitude":10.8142,"longitude":106.6438,"area_code":null,"dma_code":null,"metro_code":null,"continent_code":"AS","zip":null,"country":"VN","region_name":"Ho Chi Minh"}};
+bouncex.cookie = {"sid":5,"fvt":1510393226,"vid":1510555641672728,"ao":0,"lp":"https%3A%2F%2Fstore.nike.com%2Fvn%2Fen_gb%2Fpd%2Fea-sports-hypervenom-phantom-3-df-se-fg-football-boot%2Fpid-11885851%2Fpgid-11933312","as":0,"vpv":3,"d":"d","r":"store.nike.com","cvt":1510555641,"gcr":21,"m":0,"did":"6893991268560206156","lvt":1510556513};
+bouncex.brandStyles = false;
+bouncex.webfonts = false;
+bouncex.campaigns = false;
+bouncex.gbi.stacks = false;
+bouncex.debug = false;
+
+
+bouncex.tryCatch(function(){
+	if(bouncex.browser.msie){
+		bouncex.setTimeout2(function(){
+			bouncex.init();
+		}, 0);
+	} else {
+		bouncex.init();
+	}
+})();
